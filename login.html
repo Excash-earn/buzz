@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Excash | Login</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#111827,#4f46e5,#00c853);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.login-box{
+width:380px;
+background:#161b22;
+padding:40px;
+border-radius:18px;
+box-shadow:0 0 25px rgba(0,255,153,.2);
+}
+
+.logo{
+text-align:center;
+font-size:32px;
+font-weight:700;
+color:#00ff99;
+margin-bottom:10px;
+}
+
+.subtitle{
+text-align:center;
+color:#ccc;
+margin-bottom:30px;
+}
+
+input{
+width:100%;
+padding:14px;
+margin-bottom:18px;
+border:none;
+border-radius:10px;
+background:#222;
+color:#fff;
+font-size:15px;
+}
+
+input:focus{
+outline:2px solid #00ff99;
+}
+
+button{
+width:100%;
+padding:15px;
+border:none;
+border-radius:10px;
+background:#00ff99;
+font-size:17px;
+font-weight:bold;
+cursor:pointer;
+}
+
+button:hover{
+opacity:.9;
+}
+
+.options{
+display:flex;
+justify-content:space-between;
+margin:15px 0;
+font-size:14px;
+}
+
+.options a{
+color:#00ff99;
+text-decoration:none;
+}
+
+.register{
+text-align:center;
+margin-top:20px;
+color:#ccc;
+}
+
+.register a{
+color:#00ff99;
+text-decoration:none;
+font-weight:bold;
+}
+</style>
+
+</head>
+<body>
+
+<div class="login-box">
+
+<div class="logo">EXCASH</div>
+
+<p class="subtitle">Welcome Back</p>
+
+<form>
+
+<input type="email" placeholder="Email Address" required>
+
+<input type="password" placeholder="Password" required>
+
+<div class="options">
+<label>
+<input type="checkbox">
+Remember Me
+</label>
+
+<a href="#">Forgot Password?</a>
+</div>
+
+<button type="submit">Login</button>
+
+</form>
+
+<div class="register">
+Don't have an account?
+<a href="register.html">Register</a>
+</div>
+
+</div>
+
+</body>
+</html>
