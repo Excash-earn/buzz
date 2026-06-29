@@ -18,3 +18,10 @@ function loginUser(email, password) {
             alert(error.message);
         });
 }
+function registerUser() {
+    alert("Registration Successful");
+}
+
+function loginUser() {
+    alert("Login Successful");
+}
