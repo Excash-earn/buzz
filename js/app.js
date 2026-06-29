@@ -8,3 +8,13 @@ function registerUser(email, password) {
       alert(error.message);
     });
 }
+function loginUser(email, password) {
+    auth.signInWithEmailAndPassword(email, password)
+        .then(() => {
+            alert("Login Successful!");
+            window.location.href = "dashboard.html";
+        })
+        .catch((error) => {
+            alert(error.message);
+        });
+}
